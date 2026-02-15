@@ -1,0 +1,14 @@
+[project]
+name = "quotedb"
+version = "0.1.0"
+description = "A tool to generate quote images from CSV files"
+authors = [
+    { name = "atb00ker" }
+]
+dependencies = [
+    "Pillow~=12.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
